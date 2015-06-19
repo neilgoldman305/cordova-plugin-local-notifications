@@ -9,7 +9,7 @@
 
     <description>The plugin supports scheduling local notifications in various ways with a single interface. It also allows you to update, clear or cancel them. There are different interfaces to query for local notifications and a complete set of events to hook into the life cycle of local notifications. To get a deep overview we recommend to read about all the topics in our wiki and try out the Kitchen Sink App</description>
 
-    <repo>https://github.com/katzer/cordova-plugin-local-notifications.git</repo>
+    <repo>https://github.com/neilgoldman305/cordova-plugin-local-notifications</repo>
 
     <keywords>appplant, notification, local notification</keywords>
 
@@ -53,7 +53,7 @@
     <!-- ios -->
     <platform name="ios">
 
-        <dependency id="de.appplant.cordova.common.registerusernotificationsettings" />
+        <dependency id="de.appplant.cordova.common.registerusernotificationsettings" url="https://github.com/neilgoldman305/cordova-common-registerusernotificationsettings" />
 
         <config-file target="config.xml" parent="/*">
             <feature name="LocalNotification">
